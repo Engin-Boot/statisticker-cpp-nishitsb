@@ -57,7 +57,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float> &inputNumbers)
 
     Stats stat;
 
-    if (floatInputs.size() == 0  && inputNumbers.size()>=0)
+    if (floatInputs.size() == 0)
     {
         stat.average = std::numeric_limits<float>::quiet_NaN();
         stat.min = std::numeric_limits<float>::quiet_NaN();
